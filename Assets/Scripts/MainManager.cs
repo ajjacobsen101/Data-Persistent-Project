@@ -26,10 +26,7 @@ public class MainManager : MonoBehaviour
     private static int BestScore;
     private static string BestPlayer;
 
-    private void Awake()
-    {
-        LoadGameRank();
-    }
+  
 
     // Start is called before the first frame update
     void Start()
